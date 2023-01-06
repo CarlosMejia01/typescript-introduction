@@ -33,4 +33,11 @@ let extincionDinosaurios: number = 76_000_000;
 let dinosaurioFavorito: string = "T-Rex";
 let extintos: boolean = true;
 
-let variable; //any
+//any
+let variable;
+variable = "new data";
+variable = 42;
+
+function testAny(config: any) {
+  return config;
+}
