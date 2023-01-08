@@ -41,3 +41,10 @@ variable = 42;
 function testAny(config: any) {
   return config;
 }
+
+//Inferidos
+let animales: string[] = ["leopardo", "aguila", "tigre"];
+let nums: number[] = [1, 2, 3];
+let checks: boolean[] = [];
+// Other type of definition
+let nums2: Array<number> = [];
