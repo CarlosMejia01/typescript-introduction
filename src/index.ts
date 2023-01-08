@@ -53,3 +53,20 @@ let nums2: Array<number> = [];
 // Tuples
 
 let tupla: [number, string[]] = [1, ["t-rex", "agilisaurus"]];
+
+// Enums
+
+const small = "s";
+const medium = "m";
+const big = "l";
+const superbig = "xl";
+
+enum Talla {
+  Small = "s",
+  Medium = "m",
+  Big = "l",
+  SuperBig = "xl",
+}
+
+const ta1Small = Talla.Small;
+console.log(ta1Small);
