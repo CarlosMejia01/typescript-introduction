@@ -70,3 +70,35 @@ enum Talla {
 
 const ta1Small = Talla.Small;
 console.log(ta1Small);
+
+enum LoadingState {
+  Idle,
+  Loading,
+  Success,
+  Error,
+}
+
+const estado = LoadingState.Success;
+
+const objeto = { readonly id: 1, nombre?: "" // Optional;
+objeto.nombre = "Hola Mundo";
+
+type Direction {
+  number: number,
+  street: string,
+  country: string
+};
+
+type Persona {
+  readonly id: number,
+  name: string,
+  talla: Talla,
+  direction: Direction
+}:
+
+
+const object: Persona = {
+  id = 1,
+  name: 'Testing',
+  talla: Talla.medium
+}
