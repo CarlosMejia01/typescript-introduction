@@ -100,7 +100,7 @@ type Persona {
 const object: Persona = {
   id = 1,
   name: 'Testing',
-  talla: Talla.Medium
+  talla: Talla.Medium,
   direction: {
       number: 1,
       street: 'Test',
