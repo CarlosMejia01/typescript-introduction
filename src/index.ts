@@ -100,5 +100,12 @@ type Persona {
 const object: Persona = {
   id = 1,
   name: 'Testing',
-  talla: Talla.medium
+  talla: Talla.Medium
+  direction: {
+      number: 1,
+      street: 'Test',
+      country: 'Colombia'
+  }
 }
+
+
