@@ -48,3 +48,8 @@ let nums: number[] = [1, 2, 3];
 let checks: boolean[] = [];
 // Other type of definition
 let nums2: Array<number> = [];
+
+// nums2.map(x => x.)
+// Tuples
+
+let tupla: [number, string[]] = [1, ["t-rex", "agilisaurus"]];
