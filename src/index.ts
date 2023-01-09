@@ -106,3 +106,5 @@ const object: Persona = {
     country: "Colombia",
   },
 };
+
+const arr: Persona[] = []; //Array personas
