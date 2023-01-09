@@ -80,32 +80,29 @@ enum LoadingState {
 
 const estado = LoadingState.Success;
 
-const objeto = { readonly id: 1, nombre?: "" // Optional;
-objeto.nombre = "Hola Mundo";
+const objeto = { id: 1, name: "" }; //Readonly not change, name Optional;
+objeto.name = "Hola Mundo";
 
-type Direction {
-  number: number,
-  street: string,
-  country: string
+type Direction = {
+  number: number;
+  street: string;
+  country: string;
 };
 
-type Persona {
-  readonly id: number,
-  name: string,
-  talla: Talla,
-  direction: Direction
-}:
-
+type Persona = {
+  readonly id: number;
+  name: string;
+  talla: Talla;
+  direction: Direction;
+};
 
 const object: Persona = {
-  id = 1,
-  name: 'Testing',
+  id: 1,
+  name: "Testing",
   talla: Talla.Medium,
   direction: {
-      number: 1,
-      street: 'Test',
-      country: 'Colombia'
-  }
-}
-
-
+    number: 1,
+    street: "Test",
+    country: "Colombia",
+  },
+};
